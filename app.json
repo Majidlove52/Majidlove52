@@ -1,0 +1,16 @@
+{
+  "name": "WalletBot",
+  "repository": "https://github.com/YourUsername/WalletBot",
+  "env": {
+    "BOT_TOKEN": {
+      "required": true
+    }
+  },
+  "image": "heroku/python",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "addons": []
+}
